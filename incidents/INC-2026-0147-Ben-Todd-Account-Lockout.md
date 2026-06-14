@@ -142,6 +142,14 @@ Review of Event ID 4740 confirmed the account lockout originated from cached cre
 
 No evidence of malicious activity was observed.
 
+## Evidence
+
+### PowerShell Investigation
+
+The following PowerShell commands were used to verify the account lockout, review account properties, unlock the account, and validate Event ID 4740.
+
+![Account Lockout Investigation](../screenshots/account-lockout-powershell.png)
+
 ## Resolution
 
 Root Cause:
